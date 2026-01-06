@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yearly Summary</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="year_summary.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <h1 id="year-title"></h1>
+        </div>
+        <div id="visualization">
+            <div id="left-panel">
+                <!-- Grid of small maps will go here -->
+            </div>
+            <div id="divider"></div>
+            <div id="right-panel">
+                <!-- Large map will go here -->
+            </div>
+        </div>
+        <div id="footer">
+            <div class="stat-box">
+                <span class="stat-label">Total Runs</span>
+                <span class="stat-value" id="total-runs"></span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-label">Total Distance</span>
+                <span class="stat-value" id="total-distance"></span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-label">Longest Run</span>
+                <span class="stat-value" id="max-distance"></span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-label">Avg Distance</span>
+                <span class="stat-value" id="avg-distance"></span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-label">Runs/Week</span>
+                <span class="stat-value" id="runs-per-week"></span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-label">Avg Pace</span>
+                <span class="stat-value" id="avg-pace"></span>
+            </div>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="year_summary.js"></script>
+</body>
+
+</html>
