@@ -1,0 +1,21 @@
+# Environment Variables
+.env
+
+# Strava Tokens
+strava/strava_tokens.json
+
+# Data
+data/activities.json
+data/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Mac
+.DS_Store
+
+# Plots
+plots/output/
+
