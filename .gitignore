@@ -19,3 +19,4 @@ __pycache__/
 # Plots
 plots/output/
 
+plots/templates/data.js
